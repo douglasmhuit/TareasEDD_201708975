@@ -1,0 +1,19 @@
+digraph G{
+node[shape="box" shape="record"];
+ node0xc000046050[label="{Nombre: Marvin|Apellido: Martinez|Apodo: Marvin25ronal|Favorito: Jugar apex}" style="radial" fillcolor= "yellow;0.1:red"];
+ node0xc0000460a0[label="{Nombre: Yaiza|Apellido: Pineda|Apodo: Bambi|Favorito: Patinar}" style="radial" fillcolor= "yellow;0.1:red"];
+ node0xc0000460f0[label="{Nombre: Jonathan|Apellido: Lopez|Apodo: Pancho|Favorito: Comer}" style="radial" fillcolor= "yellow;0.1:red"];
+ node0xc000046140[label="{Nombre: usuario1|Apellido: bla|Apodo: bla|Favorito: Jugar apex}" style="radial" fillcolor= "yellow;0.1:red"];
+ node0xc000046190[label="{Nombre: usuario2|Apellido: bla|Apodo: bla|Favorito: Jugar apex}" style="radial" fillcolor= "yellow;0.1:red"];
+ node0xc0000461e0[label="{Nombre: usuario3|Apellido: sale edd|Apodo: vamos con todo|Favorito: 100 en la fase 1}" style="radial" fillcolor= "yellow;0.1:red"];
+node0xc000046050->node0xc0000460a0;
+node0xc0000460a0->node0xc000046050;
+node0xc0000460a0->node0xc0000460f0;
+node0xc0000460f0->node0xc0000460a0;
+node0xc0000460f0->node0xc000046140;
+node0xc000046140->node0xc0000460f0;
+node0xc000046140->node0xc000046190;
+node0xc000046190->node0xc000046140;
+node0xc000046190->node0xc0000461e0;
+node0xc0000461e0->node0xc000046190;
+}
